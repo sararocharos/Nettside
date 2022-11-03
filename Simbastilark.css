@@ -1,0 +1,76 @@
+body {
+    background-color: rgba(171, 98, 47, 0.795);
+    font-family: Arial, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: rgb(70, 45, 20);
+}
+
+#hoved {
+      width: 70%;                /* bredde: 70 % av vinduet */
+      margin: 10px auto;        /* 10 px over elementet, auto midtstiller det */
+      padding: 40px;             /* luft mellom kantlinjene og innholdet */
+      background-color: rgb(252, 219, 195);  
+      border: 1px solid rgb(252, 205, 171); 
+    }
+
+    top lenker 
+ * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        margin: 0;
+      }
+      
+
+      .header {
+        background-color: rgba(252, 219, 195);
+        padding: 20px;
+        text-align: center;
+        border: 1px solid rgb(171, 98, 47, 0.795)  ;
+      }
+    
+      .topnav {
+        overflow: hidden;
+        background-color: rgb(252, 219, 195);
+      }
+
+      .topnav a {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+h1 {
+    font-family:Arial, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    color: rgb(88, 48, 13);
+}
+
+.underoverskrifter {
+    font-family:Arial, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    color: rgb(127, 67, 22);
+}
+.Hovedbilde {
+    width: 200px;
+    height: auto;
+    float: right;
+}
+.bilde {
+    width: 195px;
+    height: auto; 
+}
+.column {
+    float: left;
+  }
+  
+  .left {
+    width: 25%;
+  }
+  
+  .right {
+    width: 75%;
+  }
